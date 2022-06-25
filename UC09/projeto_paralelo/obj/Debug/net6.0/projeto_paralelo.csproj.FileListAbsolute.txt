@@ -1,0 +1,15 @@
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\bin\Debug\net6.0\projeto_paralelo.exe
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\bin\Debug\net6.0\projeto_paralelo.deps.json
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\bin\Debug\net6.0\projeto_paralelo.runtimeconfig.json
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\bin\Debug\net6.0\projeto_paralelo.dll
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\bin\Debug\net6.0\projeto_paralelo.pdb
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.csproj.AssemblyReference.cache
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.AssemblyInfoInputs.cache
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.AssemblyInfo.cs
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.csproj.CoreCompileInputs.cache
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.dll
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\refint\projeto_paralelo.dll
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.pdb
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\projeto_paralelo.genruntimeconfig.cache
+C:\Users\luiz\Desktop\Github\BET07_FST04\UC09\projeto_paralelo\obj\Debug\net6.0\ref\projeto_paralelo.dll
