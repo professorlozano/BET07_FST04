@@ -6,14 +6,12 @@ namespace BE7_FS4_UC9.Classes
     {
         public string ?cpf { get; set; }
         public string ?dataNascimento { get; set; }
-        
-        
+
         public override float PagarImposto(float rendimento)
         {
             throw new NotImplementedException();
         }
 
-        
         public bool ValidarDataNascimento(DateTime dataNasc)
         {
             DateTime dataAtual= DateTime.Today;
