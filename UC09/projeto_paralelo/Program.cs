@@ -16,7 +16,22 @@ Console.WriteLine($"Saldo: {obj_conta.getSaldo()}");
 */
 
 Corrente obj_cc = new Corrente("3030-0","1988",101);
-Console.WriteLine($"Agencia: {obj_cc.agencia}");
-Console.WriteLine($"Numero: {obj_cc.numero}");
-Console.WriteLine($"Saldo: {obj_cc.getSaldo()}");
-Console.WriteLine($"Limite: {obj_cc.limite}");
+/*
+string ret;
+ret = obj_cc.ToString();
+Console.WriteLine($"{ret}");
+*/
+Console.WriteLine($"{obj_cc.ToString()}");
+Console.WriteLine($"******************************************************");
+//obj_cc.Depositar(100);
+Console.WriteLine($"{obj_cc.Depositar(100)}");
+Console.WriteLine($"{obj_cc.ToString()}");
+Console.WriteLine($"******************************************************");
+Console.WriteLine($"{obj_cc.Sacar(300)}");
+Console.WriteLine($"{obj_cc.ToString()}");
+
+
+
+
+
+

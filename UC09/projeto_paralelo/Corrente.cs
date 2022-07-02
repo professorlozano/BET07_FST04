@@ -9,7 +9,6 @@ namespace projeto_paralelo
             setLimite(argLimite);
         }
 
-     
 
         public void setLimite(double argLimite){
             if (argLimite > 100){
@@ -18,6 +17,23 @@ namespace projeto_paralelo
             else
                 this.limite = 0;
         }
-        
+
+        public override bool Sacar(double argValor)
+        {
+            if((argValor <= (base.saldo + this.limite)))
+            {
+                base.setSaldo(base.saldo - argValor);
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+
+        public string ToString(){
+            string texto = base.ToString();
+            texto += "\nLimite: " + this.limite; 
+            return texto;
+        }
     }
 }
