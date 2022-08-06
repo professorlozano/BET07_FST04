@@ -50,9 +50,9 @@ do
             Endereco novoEnd = new Endereco();
             PessoaFisica metodoPf = new PessoaFisica();
             novaPf.nome = "Luiz";
-            novaPf.dataNascimento = "18/02/1984";
+            novaPf.dataNascimento = "18/02/2014";
             novaPf.cpf = "12345678900";
-            novaPf.rendimento = 600.0f;
+            novaPf.rendimento = 2000.0f;
             novoEnd.logradouro = "Alameda BArao de Limeira";
             novoEnd.numero = 539;
             novoEnd.complemento = "Senai Informatica";
@@ -61,7 +61,8 @@ do
             Console.WriteLine(@$"
                 Nome: {novaPf.nome}
                 Endereco: {novaPf.endereco.logradouro}, {novaPf.endereco.numero}
-                Maior de idade: {metodoPf.ValidarDataNascimento(novaPf.dataNascimento)}
+                Maior de idade: {(metodoPf.ValidarDataNascimento(novaPf.dataNascimento) ? "Sim": "Não")}
+                Taxa de Imposto a ser paga é: {metodoPf.PagarImposto(novaPf.rendimento).ToString("C")}
                 ");
             Console.WriteLine($"Aperte 'Enter' para continuar");
             Console.ReadLine();
@@ -83,7 +84,10 @@ do
                 Nome: {novaPj.nome}
                 Razao Social: {novaPj.razaoSocial}
                 CNPJ: {novaPj.cnpj}
-                CNPJ é válido: {metodoPj.ValidarCnpj(novaPj.cnpj)}");
+                CNPJ é válido: {(metodoPj.ValidarCnpj(novaPj.cnpj)?"Sim":"Não")}
+                Taxa de Imposto a ser paga é: {metodoPj.PagarImposto(novaPj.rendimento).ToString("C")}
+                ");
+                
             Console.WriteLine($"Aperte 'Enter' para continuar");
             Console.ReadLine();
             break;
