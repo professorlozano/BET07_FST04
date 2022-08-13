@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiz\\Desktop\\Github\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj": {}
+    "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiz\\Desktop\\Github\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj": {
+    "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz\\Desktop\\Github\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj",
+        "projectUniqueName": "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj",
         "projectName": "projeto_paralelo",
-        "projectPath": "C:\\Users\\luiz\\Desktop\\Github\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj",
-        "packagesPath": "C:\\Users\\luiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz\\Desktop\\Github\\BET07_FST04\\UC09\\projeto_paralelo\\obj\\",
+        "projectPath": "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC09\\projeto_paralelo\\projeto_paralelo.csproj",
+        "packagesPath": "C:\\Users\\lozano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lozano\\Desktop\\GitHub\\BET07_FST04\\UC09\\projeto_paralelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lozano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
