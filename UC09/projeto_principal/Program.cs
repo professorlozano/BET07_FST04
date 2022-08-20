@@ -77,6 +77,8 @@ do
                         Console.WriteLine($"Digite o nome da pessoa física que deseja cadastrar");
                         novaPf.nome = Console.ReadLine();
 
+                        /*
+
                         bool dataValida;
 
                         do
@@ -98,10 +100,10 @@ do
                             }
                             
                             } while (dataValida == false);
-
+                        */
                             Console.WriteLine($"Digite o número do CPF");
                             novaPf.cpf = Console.ReadLine();
-
+                        /*
                             Console.WriteLine($"Digite o rendimento mensal (digite apenas números)");
                             novaPf.rendimento = float.Parse(Console.ReadLine());
 
@@ -124,7 +126,18 @@ do
                                 novoEnd.endComercial = false;
                             }
                             novaPf.endereco = novoEnd;
-                            listaPf.Add(novaPf);
+
+                            //listaPf.Add(novaPf);
+
+                            
+
+                        */
+                            using (StreamWriter sw = new StreamWriter($"{novaPf.nome}.txt"))
+                            {
+                                sw.WriteLine($"{novaPf.nome}");
+                                sw.WriteLine($"{novaPf.cpf}");
+                            }
+
                             Console.ForegroundColor = ConsoleColor.DarkGreen;
                             Console.WriteLine($"Cadastro Realizado com Sucesso!!!");
                             Console.ResetColor();
@@ -133,6 +146,7 @@ do
                     case "2":
                         Console.Clear();
 
+                        /*
                         if (listaPf.Count > 0){
                             foreach (PessoaFisica cadaPessoa in listaPf)
                             {
@@ -151,6 +165,19 @@ do
                             Console.WriteLine($"Lista Vazia!!!");
                             Thread.Sleep(3000);
                         }
+                        */
+
+                        using (StreamReader sr = new StreamReader($"Luiz.txt"))
+                            {
+                                string linha;
+                                while((linha = sr.ReadLine()) != null)
+                                {
+                                    Console.WriteLine($"{linha}");
+                                }
+                            }
+                        Console.WriteLine($"Aperte 'Enter'para continuar...");
+                        Console.ReadLine();
+                        
 
                         break;
                     case "0":
@@ -168,27 +195,40 @@ do
             break;
         case "2":
             PessoaJuridica metodoPj = new PessoaJuridica();
+
             PessoaJuridica novaPj = new PessoaJuridica();
             Endereco novoEndPj = new Endereco();
+
+
             novaPj.nome = "NomePj";
             novaPj.cnpj = "00000000000100";
             novaPj.razaoSocial = "Razao Social Pj";
             novaPj.rendimento = 8000.5f;
+
             novoEndPj.logradouro = "Alameda BArao de Limeira";
             novoEndPj.numero = 539;
             novoEndPj.complemento = "Senai Informatica";
             novoEndPj.endComercial = true;
+
             novaPj.endereco = novoEndPj;
-            Console.WriteLine(@$"
-                Nome: {novaPj.nome}
-                Razao Social: {novaPj.razaoSocial}
-                CNPJ: {novaPj.cnpj}
-                CNPJ é válido: {(metodoPj.ValidarCnpj(novaPj.cnpj)?"Sim":"Não")}
-                Taxa de Imposto a ser paga é: {metodoPj.PagarImposto(novaPj.rendimento).ToString("C")}
+
+            metodoPj.Inserir(novaPj);
+
+            List<PessoaJuridica> listaPj = metodoPj.Ler();
+
+            foreach(PessoaJuridica cadaItem in listaPj)
+            {
+                Console.Clear();
+                Console.WriteLine(@$"
+                    Nome: {novaPj.nome}
+                    Razao Social: {novaPj.razaoSocial}
+                    CNPJ: {novaPj.cnpj}
                 ");
                 
             Console.WriteLine($"Aperte 'Enter' para continuar");
             Console.ReadLine();
+            }
+
             break;
         case "0":
             Console.Clear();
