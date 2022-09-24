@@ -16,5 +16,8 @@ VALUES ('Titulo A', 120, 1);
 INSERT INTO Livros (Titulo, QuantidadePaginas, Disponivel)
 VALUES ('Titulo B', 220, 0);
 
+INSERT INTO Livros (Titulo, QuantidadePaginas, Disponivel)
+VALUES ('Titulo C', 225, 1);
+
 SELECT * FROM Livros;
 
