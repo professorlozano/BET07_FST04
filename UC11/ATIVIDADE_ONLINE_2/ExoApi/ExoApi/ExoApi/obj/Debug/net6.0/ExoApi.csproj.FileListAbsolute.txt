@@ -57,3 +57,4 @@ C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC11\ATIVIDADE_ONLINE_2\ExoApi\ExoApi
 C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC11\ATIVIDADE_ONLINE_2\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\ExoApi.pdb
 C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC11\ATIVIDADE_ONLINE_2\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\ExoApi.genruntimeconfig.cache
 C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC11\ATIVIDADE_ONLINE_2\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\ref\ExoApi.dll
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC11\ATIVIDADE_ONLINE_2\ExoApi\ExoApi\ExoApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
