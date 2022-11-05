@@ -1,0 +1,12 @@
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\bin\Debug\net6.0\TesteIMC.deps.json
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\bin\Debug\net6.0\TesteIMC.dll
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\bin\Debug\net6.0\TesteIMC.pdb
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.csproj.AssemblyReference.cache
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.AssemblyInfoInputs.cache
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.AssemblyInfo.cs
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.csproj.CoreCompileInputs.cache
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.dll
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\refint\TesteIMC.dll
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.pdb
+C:\Users\lozano\Desktop\GitHub\BET07_FST04\UC12\ATIVIDADE_ONLINE2\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\ref\TesteIMC.dll
